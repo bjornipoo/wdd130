@@ -1,10 +1,16 @@
 :root {
     --heading-background-color: steelblue;
     --heading-text-colour: #000000;
+    --border-colour: #000000;
 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 nav a {
@@ -13,14 +19,15 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--heading-background-color);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--heading-background-color);
     padding: 2px;
     box-shadow: 0 0 30px grey;
+    float: right;
 }
 p {
     padding: 0;
@@ -31,7 +38,7 @@ main {
 aside {
     width: 25rem;
     margin: 20px;
-    border: 2px solid #00000021;
+    border: 2px solid var(--border-colour);
     padding: 20px;
     background-color: #eeeeee;
     color: #000000;
@@ -43,6 +50,23 @@ aside img{
 }
 footer {
     margin-top: 1rem;
-    border-top: 2px solid #000000;
+    border-top: 2px solid var(--heading-text-colour);
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2px solid var(--border-colour);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+aside {
+    width: 25rem;
+    text-align: center;
+}
+aside h2 {
+    position: relative;
+    top: 30px;
+    left: 8px;
 }
