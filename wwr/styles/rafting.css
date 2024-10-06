@@ -12,20 +12,6 @@
     box-sizing: border-box; 
 } 
 
-.montserrat { 
-    font-family: "Montserrat", sans-serif; 
-    font-optical-sizing: auto; 
-    font-weight: 400; 
-    font-style: normal; 
-} 
-
-.oswald { 
-    font-family: "Oswald", sans-serif; 
-    font-optical-sizing: auto; 
-    font-weight: 400; 
-    font-style: normal; 
-} 
-
 .hero {
     position: relative;
 }
@@ -38,7 +24,10 @@ position: relative;
 }  
 
 header { 
-
+    font-family: "Oswald", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal; 
     background-color: var(--primary-colour); 
     display: block; 
     width: 100%; 
@@ -86,6 +75,10 @@ p {
 main { 
     max-width: 100%; 
     background-color: var(--secondary-colour);
+    font-family: "Montserrat", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal; 
 } 
 
 main img {
