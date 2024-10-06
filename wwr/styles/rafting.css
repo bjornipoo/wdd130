@@ -1,0 +1,123 @@
+:root { 
+    --primary-colour: #14110F; 
+    --secondary-colour: #34312D; 
+    --accent-colour-1: #7E7F83; 
+    --accent-colour-2: #D9C5B2; 
+    --accent-colour-3: #F3F3F4; 
+} 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+.montserrat { 
+    font-family: "Montserrat", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal; 
+} 
+
+.oswald { 
+    font-family: "Oswald", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal; 
+} 
+
+.hero {
+    position: relative;
+}
+
+.hero img { 
+display:block; 
+width:100%; 
+height:auto; 
+position: relative;
+}  
+
+header { 
+
+    background-color: var(--primary-colour); 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+
+} 
+
+nav { 
+    background-color: var(--primary-colour); 
+    padding: 10px; 
+    color: var(--accent-colour-1);
+} 
+
+nav a { 
+    color: var(--accent-colour-1); 
+    text-decoration: none; 
+} 
+
+h1 { 
+    color: var(--primary-colour); 
+    position: absolute;
+    background-color: var(--accent-colour-3);
+    display: block;
+    width: 300px;
+    top:auto;
+    left: auto;
+} 
+
+h1 img { 
+    display: block; 
+    width: 150px; 
+    height: auto; 
+    border: 1px solid var(--secondary-colour); 
+    padding: 2px; 
+    float: right; 
+    position: relative;
+}  
+
+p { 
+    padding: 0; 
+    display: block; 
+    width:80%; 
+} 
+
+main { 
+    max-width: 100%; 
+    background-color: var(--secondary-colour);
+} 
+
+main img {
+    width: auto;
+    height: 10rem;
+    border: 1px solid var(--heading-background-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--accent-colour-1);
+}
+ 
+
+article { 
+    display: block; 
+    width: 100%; 
+    background-color: var(--primary-colour); 
+    border: 2px solid var(--secondary-colour); 
+    color: var(--accent-colour-2); 
+    margin: 20px; 
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+} 
+
+
+
+footer { 
+    margin-top: 1rem; 
+    border-top: 2px solid var(--heading-text-colour); 
+    text-align: center; 
+} 
+
+ 
+
+ 
