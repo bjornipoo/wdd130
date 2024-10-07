@@ -28,27 +28,18 @@
     box-sizing: border-box; 
 } 
 
-.hero {
-    position: relative;
-}
-
-.hero img { 
-display:block; 
-width:100%; 
-height:auto; 
-position: relative;
-}  
+ 
 
 header { 
     font-family: "Oswald", sans-serif; 
     font-weight: 400; 
     font-style: normal; 
-    background-color: var(--primary-colour); 
     display: block; 
     width: 100%; 
-    height: auto; 
+    height: auto;
     background-color: var(--primary-colour);
     border: 2px solid var(--secondary-colour);
+    text-decoration: none var(--accent-colour-1);
     
 
 } 
@@ -59,36 +50,50 @@ nav {
     color: var(--accent-colour-1);
 } 
 
-head { 
+nav a { 
     color: var(--accent-colour-1); 
-    text-decoration: none; 
+    text-decoration: none;
     background-color: var(--primary-colour);
 } 
 
 h1 { 
     color: var(--primary-colour); 
-    position: absolute;
     background-color: var(--accent-colour-3);
     display: block;
-    width: 300px;
-    top:auto;
-    left: auto;
+    width: 1rem;
+    height: 1rem;
+    top:1rem;
+    position: absolute;
 } 
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 20rem;
+}
 
 h1 img { 
     display: block; 
-    width: 150px; 
+    width: 30px; 
     height: auto; 
-    border: 1px solid var(--secondary-colour); 
-    padding: 2px; 
-    float: right; 
-    position: relative;
+    border: 1px solid var(--secondary-colour);  
+    float: right;
+    right: 1rem;
+    position: absolute;
 }  
+
+.hero img { 
+    display:block; 
+    width:100%; 
+    height:auto;
+    position: relative; 
+    } 
 
 p { 
     padding: 0; 
     display: block; 
-    width:80%; 
+    width: 20rem;
+    text-align: left;
 } 
 
 main { 
@@ -99,25 +104,34 @@ main {
     font-style: normal; 
 } 
 
+main {
+    background-color: var(--primary-colour);
+    color: var(--accent-colour-2);
+    width: 100%;
+
+}
+
 main img {
-    width: auto;
-    height: 10rem;
+    width: 60%;
+    height: auto;
     border: 1px solid var(--heading-background-color);
     padding: 2px;
     box-shadow: 0 0 30px var(--accent-colour-1);
+    position:relative;
+    left: 2rem;
 }
  
 
 article { 
     display: block; 
-    width: 100%; 
+    width: 80%; 
+    height: 10%;
     background-color: var(--primary-colour); 
     border: 2px solid var(--secondary-colour); 
     color: var(--accent-colour-2); 
     margin: 20px; 
     position: absolute;
     top: 20px;
-    left: 10px;
 
 } 
 
@@ -135,7 +149,7 @@ article img {
 footer { 
     margin-top: 1rem; 
     border-top: 2px solid var(--heading-text-colour); 
-    text-align: center; 
+    text-align: left;
     background-color: var(--primary-colour);
     border: 2px solid var(--secondary-colour);
 } 
