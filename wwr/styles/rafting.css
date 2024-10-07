@@ -57,12 +57,12 @@ nav a {
 } 
 
 h1 { 
-    color: var(--primary-colour); 
-    background-color: var(--accent-colour-3);
+    color: var(--accent-colour-2);
     display: block;
-    width: 1rem;
-    height: 1rem;
-    top:1rem;
+    width: 30rem;
+    height: 10%;
+    top: 10rem;
+    left: 40rem;
     position: absolute;
 } 
 
@@ -72,21 +72,13 @@ nav {
     height: 20rem;
 }
 
-h1 img { 
-    display: block; 
-    width: 30px; 
-    height: auto; 
-    border: 1px solid var(--secondary-colour);  
-    float: right;
-    right: 1rem;
-    position: absolute;
-}  
 
 .hero img { 
     display:block; 
     width:100%; 
     height:auto;
     position: relative; 
+    fit
     } 
 
 p { 
@@ -97,19 +89,13 @@ p {
 } 
 
 main { 
-    max-width: 100%; 
-    background-color: var(--secondary-colour);
+    width: 100%; 
+    background-color: var(--primary-colour);
+    color: var(--accent-colour-2);
     font-family: "Montserrat", sans-serif; 
     font-weight: 400; 
     font-style: normal; 
 } 
-
-main {
-    background-color: var(--primary-colour);
-    color: var(--accent-colour-2);
-    width: 100%;
-
-}
 
 main img {
     width: 60%;
@@ -124,27 +110,26 @@ main img {
 
 article { 
     display: block; 
-    width: 80%; 
-    height: 10%;
+    width: 10rem; 
+    height: 4rem;
     background-color: var(--primary-colour); 
     border: 2px solid var(--secondary-colour); 
     color: var(--accent-colour-2); 
     margin: 20px; 
     position: absolute;
-    top: 20px;
+    top: 10rem;
 
 } 
 
 article img {
     display: block; 
-    width: 150px; 
+    width: 30px; 
     height: auto; 
-    border: 1px solid var(--secondary-colour); 
-    padding: 2px; 
+    border: 1px solid var(--secondary-colour);  
     float: right;
+    position: right float;
+    
 }
-
-
 
 footer { 
     margin-top: 1rem; 
