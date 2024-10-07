@@ -47,6 +47,9 @@ header {
     display: block; 
     width: 100%; 
     height: auto; 
+    background-color: var(--primary-colour);
+    border: 2px solid var(--secondary-colour);
+    
 
 } 
 
@@ -56,9 +59,10 @@ nav {
     color: var(--accent-colour-1);
 } 
 
-nav a { 
+head { 
     color: var(--accent-colour-1); 
     text-decoration: none; 
+    background-color: var(--primary-colour);
 } 
 
 h1 { 
@@ -117,12 +121,23 @@ article {
 
 } 
 
+article img {
+    display: block; 
+    width: 150px; 
+    height: auto; 
+    border: 1px solid var(--secondary-colour); 
+    padding: 2px; 
+    float: right;
+}
+
 
 
 footer { 
     margin-top: 1rem; 
     border-top: 2px solid var(--heading-text-colour); 
     text-align: center; 
+    background-color: var(--primary-colour);
+    border: 2px solid var(--secondary-colour);
 } 
 
  
