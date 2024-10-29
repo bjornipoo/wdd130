@@ -4,6 +4,7 @@
     --accent-colour-1: #7E7F83;
     --accent-colour-2: #D9C5B2;
     --accent-colour-3: #F3F3F4;
+    --hero-background: #141101b5;
 }
 
 body {
@@ -133,15 +134,16 @@ main img {
 
 .hero article {
     display: block;
-    width: 40rem;
+    width: 80%;
     height: auto;
-    background-color: var(--primary-colour);
+    background-color:  var(--hero-background);
     border: 2px solid var(--secondary-colour);
     color: var(--accent-colour-2);
     text-align: center;
+    justify-content: center;
     position: absolute;
-    top: 25rem;
-    left: 30%;
+    top: 30%;
+    left: 10%;
 
 }
 
