@@ -471,7 +471,7 @@ main #hero {
 }
 
 .figs figure img {
-    max-width: 1fr;
+    max-width: 100%;
     height: auto;
 }
 
