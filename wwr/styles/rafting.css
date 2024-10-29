@@ -169,6 +169,82 @@ section h2 {
     /* padding: 20px; */
 }
 
+main .img_home { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 0px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.img_home img {
+    height: 90%;
+    width: 250px;
+}
+
+.img_home div { 
+
+    width: 260px;
+    height: 210px;
+    position: relative;
+    border: 5px solid var(--secondary-colour);
+    margin-top: 10px;
+}
+
+.img_home span { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--accent-colour-1);
+    text-align: center; 
+    opacity: .7;
+    font-weight: bold;
+    height: 20px;
+    width: 100%;
+    font-size:  20px; 
+}
+
+#sec1 h3 { 
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    justify-self: center;
+}
+#sec1 p { 
+    font-size: 20px; 
+    color: var(--accent-colour-2); 
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+#sec1 form{ 
+    width: 100%;
+}
+
+#sec1 input[type=text], input[type=email] { 
+    height: 50px;
+    border: 1px solid var(--secondary-colour);
+    padding: 10px; 
+    margin-right: 10px;
+    width: 225px;
+}
+
+#sec1 button { 
+    height: 50px;
+    background-color: var(--accent2-color); 
+    color: var(--accent-colour-2); 
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 220px;
+    border: 1px solid var(--secondary-colour);
+    padding: 10px;
+    
+}
+
+#sec1 button:hover {
+    cursor: pointer;
+}
 
 .contact #team {
 justify-self: left;
