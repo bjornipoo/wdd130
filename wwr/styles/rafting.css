@@ -173,12 +173,11 @@ section h2 {
 .contact #team {
 justify-self: left;
 display: grid;
-grid-template-columns: 200px auto;
+grid-template-columns: 1fr;
 }
 
 .contact #team h1{
-    grid-row: 1 / -1;
-    grid-template-columns: 1fr;
+    grid-row: 1 ;
 }
 
 .contact #team p {
@@ -205,14 +204,16 @@ grid-template-columns: 200px auto;
 
 .contact #contact_info {
     display: grid;
-    width: 50%; 
+    /* width: 50%;  */
     grid-template-columns: 200px auto;
-    justify-content: center;
+    justify-content: left;
 }
 
 .contact #contact_info aside {
     display: grid;
+    grid-row: 1;
     justify-self: left;
+    
 }
 
 .contact #contact_info #frame {
