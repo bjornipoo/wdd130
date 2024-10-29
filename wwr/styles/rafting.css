@@ -204,22 +204,21 @@ grid-template-columns: 1fr;
 
 .contact #contact_info {
     display: grid;
-    /* width: 50%;  */
-    grid-template-columns: 200px auto;
-    justify-content: left;
+    width: 100%; 
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* justify-content: left; */
 }
 
 .contact #contact_info aside {
     display: grid;
-    grid-row: 1;
     justify-self: left;
-    
 }
 
 .contact #contact_info #frame {
     display: grid;
     justify-self: center;
-    width: 50%;
+
 
 }
 
