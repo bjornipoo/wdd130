@@ -14,69 +14,81 @@
     <body>
         <header>
             <img src="images/rafting_logo.png" alt="">
-            <nav>
-                <ul class="navigation">
-                <li><a href="index.html">index</a></li>
-                <li><a href="about.html">about</a></li>
-                </li><a href="trips.html">trips</a></li>
-                </li><a href="contact.html">contact</a></li>
-            </ul>
+            <nav class="navigation">   
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <img src="images/hero_image.webp" alt="">
-                <h1>Great Adventure Rafting</h1>
-                <article>
-                    <img src="images/happy_rafter.webp" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus, fuga expedita excepturi non aliquam ipsam debitis porro aperiam sequi, quasi laboriosam alias velit. Iure maxime quibusdam at libero culpa!</p>
-                </article>
-            </div>    
-            <section>
-                <h2> History</h2>
-                <div class="container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nostrum.</p>
-                    <img src="images/rafting_history_img.webp" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <ul class = contact>
+                <div class="team" id="team">
+                    <h1>Reach Our Team</h1>
+                    <p>Please give us your feedback and help us improve! Or simply tell us what you like!</p>
                 </div>
-            </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <div class="figs">
-                    <figure>
-                    <img src="images/rafting_image00.webp" alt="">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                    </figure>
-                    <figure>
-                    <img src="images/rafting_image01.webp" alt="">
-                    <figcaption>Big Mallard</figcaption>
-                    </figure>
-                    <figure>
-                    <img src="images/rafting_image02.webp" alt="">
-                    <figcaption>Half Day Adventure</figcaption>
-                    </figure>
-                    <figure>
-                    <img src="images/rafting_image03.webp" alt="">
-                    <figcaption>Full Day Adventure</figcaption>
-                    </figure>
-                    <figure>
-                    <img src="images/rafting_image04.webp" alt="">
-                    <figcaption>Funland Happy Place</figcaption>
-                    </figure>
+        
+                <div class="emp" id="emp">
+                    <figure><img src="images/happy_emp.jpg" alt="Happy Employee Image One"><figcaption>Employee 1</figcaption></figure>
+                    <figure><img src="images/happy_emp1.jpg" alt="Happy Employee Image Two"><figcaption>Employee 2</figcaption></figure>
+                    <figure><img src="images/happy_emp2.jpg" alt="Happy Employee Image Three"><figcaption>Employee 3</figcaption></figure>
                 </div>
-            </section>
+                <div id="contact_info">
+                    <aside>
+                        <h2>Contact Infomation</h2>
+                        <h3>IDAHO</h3>
+                        <p>Great Adventure Rafting</p>
+                        <p>1 A Street Rexburg, Idaho, USA</p>
+                        <p>email:GreatAdventureRafting@rafting.org</p>
+                        <p>phone: +1 234-5678</p>
+                    </aside>
+                <div class="right" id="frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11513.3573150121!2d-111.78582339823403!3d43.82806164047195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1730168377130!5m2!1sen!2sse" 
+                    width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div id="user_form">
+                    <h2>Message</h2>
+                    <form>
+                        <p><label for="username">Name</label>
+                        <input class="text_input" type="text" id="username" placeholder="name: last, first">
+                        </p>
+                        <p><label for="email">Email
+                        <input type="email" id="email" class="text_input" placeholder="ex. email@gmail.com"> 
+                        </label></p>
+                        <p>
+                            <label>Subject:</label>
+                        </p>
+        
+                        <div id="select_one" class="move_in">
+                        <p><label><input type="radio" name="rd" value="inquiry">General Inquiry</label></p>
+                        <p><label><input type="radio" name="rd" value="reservation">Reservation question</label></p>
+                        <p><label><input type="radio" name="rd" value="suggestion">Website Suggestion</label></p>
+                        </div>
+        
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Write here..." ></textarea></p>
+                        </p>
+                        <p id="button">
+                            <button type="submit">Proceed</button>
+                        </p>
+                    </form>
+                </div>
+            </ul>
         </main>
         <footer>
             <p>©2024 | Great Adventure Rafting | Björn Andersson </p>
+            <a href="https://app.moqups.com/PpVoiEE6MBW75ZspVNqkwoQJJQg1aYrA/view/page/a2b23ec21" target="_blank" class="wireframe">wireframe</a>
             <nav class="sociallinks">
                 <a href="https://facebook.com">
-                    <img src="images/facebook_logo.webp" alt="">
+                    <img src="images/facebook_logo.webp" alt="facebook">
                 </a>
                 <a href="https://linkedin.com">
-                    <img src="images/linkedin_logo.webp" alt="">
+                    <img src="images/linkedin_logo.webp" alt="linkedin">
                 </a>
                 <a href="https://instagram.com">
-                    <img src="images/instagram_logo.webp" alt="">
+                    <img src="images/instagram_logo.webp" alt="instagram">
                 </a>
             </nav>
         </footer>
