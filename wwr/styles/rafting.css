@@ -111,7 +111,7 @@ nav a {
 p {
     /* padding: 2rem;
     display: block; */
-    width: 100%;
+    
     text-align: left;
 }
 
@@ -253,16 +253,177 @@ grid-template-columns: 1fr;
     height: 50px;
     border-radius: 50px;
     padding: 10px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 2px solid var(--secondary-colour);
+    background-color: var(--primary-colour);
+    color: var(--accent-colour-1);
+    border: 2px solid var(--secondary-colour);
 }
 
 .contact #user_form textarea {
  width: 100%; 
  min-height: 100px;
+ background-color: var(--primary-colour);
+ color: var(--accent-colour-1);
+ border: 2px solid var(--secondary-colour);
 }
+
+main #hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20%;
+    justify-items: center;
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero_image.webp') no-repeat; 
+    background-size: 100%;
+    }
+    
+    main section { 
+        margin: 50px;
+    }
+
+    main #sec1 {
+        margin-top: 0px;
+    }
+    
+    #hero h1 { 
+
+        color: var(--accent-colour-2);
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        
+        
+    }
+    #hero p { 
+        font-size: 20px; 
+        font-weight: 600; 
+        text-align: center;
+        align-self: center;
+        color: var(--accent-colour-2);
+    }
+    
+    
+    #hero  a { 
+        
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+        
+
+    main #sec { 
+        display: grid; 
+        grid-template-columns: 1fr;
+        min-width: 100%;
+        grid-column-gap: 50px;
+        
+    }
+    
+    #sec-info h2 { 
+        color: var(--accent-colour-1); 
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #sec-info p { 
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    main .img-info { 
+        display: grid;
+        grid-template-columns: 35% 35% 30%;
+        width: 100%;
+        justify-items: center;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .img-info a{
+        text-decoration: none;
+    }
+    
+    .img-info div {   
+        position: relative;
+        margin-top: 10px;
+    }
+    .img-info img { 
+        width: 250px;
+        height: 200px;
+        position: relative;
+        border: 2px solid var(--secondary-colour);
+        margin-top: 10px;
+    }
+    .img-info h3 {
+        text-transform: uppercase;
+        color: var(--accent-colour-2);
+    }
+    .img-info .more-info{
+        width: 250px;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+
+    main #sec1 { 
+        display: grid; 
+        grid-template-columns: 90%;
+        justify-items: center;
+        width: 90%;
+        justify-content: center;   
+    }
+    
+    #sec1 h3 { 
+        color: var(--accent-colour-2);
+        text-transform: uppercase;
+    }
+    
+    
+    #sec1 table {
+        background-color: var(--primary-colour);
+        color: var(--accent-colour-2);
+        margin-top: 10px;
+        border-collapse: collapse;
+    }
+    
+    #sec1 table, th, tr, td {
+        border: 2px solid var(--secondary-colour);
+    }
+    #sec1 th {
+        color: var(--accent-colour-2);
+        text-transform: uppercase;
+    }
+    #sec1 td { 
+        font-size: 20px;
+        padding: 10px;
+    }  
+    
+    footer {
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    }
+    footer #footer { 
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr 0.5fr;
+      align-content: center;
+      justify-items: end;
+      width: 90%;
+      height: 3rem;
+      background-color: var(--nav-background-color);
+    
+    }
+
 
 .contact #user_form #button{
     display: flex;
@@ -275,14 +436,11 @@ grid-template-columns: 1fr;
     height: 50px;
     letter-spacing: 5px;
     justify-content: center;
-    background-color: var(--accent2-color);
+    color: var(--accent-colour-2);
+    background-color: var(--secondary-colour);
     font-weight: bold;
-    border: 1px solid var(--accent2-color);
+    border: 1px solid var(--accent-colour-2);
 }
-.contact #user_form button:hover {
-    cursor: pointer;
-}
-
 
 .container {
     display: flex;
