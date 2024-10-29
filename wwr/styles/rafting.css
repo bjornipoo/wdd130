@@ -109,9 +109,9 @@ nav a {
 }
 
 p {
-    padding: 2rem;
-    display: block;
-    /* width: 100%; */
+    /* padding: 2rem;
+    display: block; */
+    width: 100%;
     text-align: left;
 }
 
@@ -131,7 +131,7 @@ main img {
 }
 
 
-article {
+.hero article {
     display: block;
     width: 40rem;
     height: auto;
@@ -160,21 +160,30 @@ section h2 {
     margin: 20px;
 }
 
-.contact main{
-    display: grid; 
-    grid-template-columns: 200px auto;
-    width: 100%; 
+.contact{
+    /* display: grid; 
+    grid-template-columns: 200px auto; */
+    width: 100%;
     justify-items: center;
     justify-content: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 
-.contact main #team{
-    display: grid;
-    grid-template-columns: 200px auto;
-    width: 90%;
-    justify-items: center;
+.contact #team {
+justify-self: left;
+display: grid;
+grid-template-columns: 200px auto;
+}
+
+.contact #team h1{
+    grid-row: 1 / -1;
+    grid-template-columns: 1fr;
+}
+
+.contact #team p {
+   grid-row: 2;
+
 }
 
 .contact #emp {
@@ -192,60 +201,39 @@ section h2 {
 
 .contact #emp figcaption {
     text-align: center;
-    font-weight: bold;
-    font-weight: bold;
 }
 
 .contact #contact_info {
     display: grid;
     width: 50%; 
-    grid-template-columns: 1fr auto;
-    grid-row-start: 1;
+    grid-template-columns: 200px auto;
+    justify-content: center;
 }
 
 .contact #contact_info aside {
     display: grid;
+    justify-self: left;
 }
 
 .contact #contact_info #frame {
     display: grid;
-    justify-self: right;
-    width: 50%;  
+    justify-self: center;
+    width: 50%;
+
 }
 
-.contact #contact_info iframe {
-    height: 350px;
-    justify-self: right;
-}
-
-.contact #frame div {
-    position: relative;
-    bottom: 37px;
-    font-weight: bold;
-    opacity: .8;
-    text-align: center;
-    width: 87%;
-    z-index: 1;
-    font-size: 20px; 
-    font-family: var(--heading-font);
-}
-
-.contact #frame p a {
-    text-align: center;
-}
-
-.contact main #user_form {
+.contact #user_form {
     display: grid;
     grid-template-columns: 1fr;
     justify-self: center;
     margin-bottom: 100px;  
 }
 
-.contact main #user_form form {
+.contact #user_form form {
     width: 600px;
-    background-color: #eeeeee;
+    background-color: var(--primary-colour);
     border: 2px solid var(--secondary-colour);
-    color: black;
+    color: var(--accent-colour-2);
     border-radius: 10px;
 }
 .contact #user_form h2{
